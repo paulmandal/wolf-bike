@@ -3,8 +3,9 @@ import neopixel
 
 pixels = neopixel.NeoPixel(board.D0, 10)
 
+print("starting pixels")
 while True:
-  for r in range(0, 255):
-    for g in range(0, 255):
-      for b in range(0, 255):
-        pixels.fill((r, g, b))
+  for rgb in range(0, 255):
+    pixels.fill((rgb, rgb, rgb))
+    pixels.show()
+    print(f"duhhrhrh rgb: {rgb}")
