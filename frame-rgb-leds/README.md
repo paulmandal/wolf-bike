@@ -15,4 +15,12 @@ https://github.com/TobKra96/music_led_strip_control/wiki/Installation-Guide#conf
 
 You will need to set up a virualenv in the /share/music_led_strip_control/server directory and copy run.sh there
 
-# Modify the nodemcu file here and set up an IP Address for each device and the SSID/WiFi password
+# Modify NodeMCU sketch and upload to devices
+
+* In Arduino add these to the board manager list: http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://dl.espressif.com/dl/package_esp32_index.json
+* Install the board you're using (e.g. ESP8266)
+* set SSID/WiFi password
+* set LED count in sketch
+* set IP address for node
+* upload to each board updating the IP each time
+
