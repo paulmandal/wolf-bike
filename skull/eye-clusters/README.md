@@ -17,4 +17,4 @@ GC9A01 Circular Display
 
 # Wiring
 
-![Wiring Diagram](https://github.com/paulmandal/wolf-bike/refs/heads/main/skull/eye-clusters/XIAO-RP2350-GC9A01-wiring-diagram.png)
+![Wiring Diagram](https://raw.githubusercontent.com/paulmandal/wolf-bike/refs/heads/main/skull/eye-clusters/XIAO-RP2350-GC9A01-wiring-diagram.png)
