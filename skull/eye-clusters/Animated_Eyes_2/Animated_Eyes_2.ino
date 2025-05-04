@@ -99,6 +99,9 @@ void setup(void) {
   Serial.begin(115200);
   //while (!Serial);
   Serial.println("Starting");
+  
+//  randomSeed(analogRead(0));
+  randomSeed(1);
 
 #if defined(DISPLAY_BACKLIGHT) && (DISPLAY_BACKLIGHT >= 0)
   // Enable backlight pin, initially off
