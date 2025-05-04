@@ -12,7 +12,7 @@ GC9A01 Circular Display
 # Load Sketch
 
 * cp TFT_eSPI-files/Setup62_XiaoRP2350_GC9A01.h ~/Arduino/libraries/TFT_eSPI/User_Setups/Setup62_XiaoRP2350_GC9A01.h
-* cp TFT_eSPI-files/User_Setup.h ~/Arduino/libraries/TFT_eSPI/User_Setup.h
+* cp TFT_eSPI-files/User_Setup_Select.h ~/Arduino/libraries/TFT_eSPI/User_Setup_Select.h
 * Open sketch in Animated_Eyes_2
 
 # Wiring
